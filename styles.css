@@ -5,6 +5,7 @@
     background: #082c6c;
     color: #fff;
 }
+
 /* To center everything in game */
 .game{
     display: flex;
@@ -14,10 +15,21 @@
     justify-content: center;
     align-items: center;
 }
+
 /* Title of the game */
 .title{
     position: absolute;
     top: 0;
     font-size: 4rem;
     z-index: 2;
+}
+
+/* Score Board */
+.score{
+    display: flex;
+    width: 30vw;
+    justify-content: space-evenly ;
+    position: absolute;
+    top: 85px;
+    z-index: 1;
 }
