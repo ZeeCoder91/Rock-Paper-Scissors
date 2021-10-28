@@ -2,7 +2,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    background: #082c6c;
+    background: #337bf8;
     color: #fff;
 }
 
@@ -52,9 +52,9 @@
     padding: 0.8rem;
     width: 100px;
     border-radius: 8px;
-    background: green;
+    background: rgb(29, 197, 29);
     outline: none;
-    border-color: green;
+    border-color: rgb(29, 197, 29);
     border: none;
     cursor: pointer;
 }
@@ -67,6 +67,7 @@
 
 /* Reload button style */
 .reload {
+    display: none;
    margin-top: 2rem;
    padding: .8rem;
    width: 100px;
