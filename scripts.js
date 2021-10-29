@@ -1,27 +1,25 @@
-function game() {
+const game = () => {
     let playerScore = 0;
     let computerScore = 0;
     let moves = 0;
+
+    const playGame = () => {
+        const rockBtn = document.querySelector(".rock");
+        const paperBtn = document.querySelector(".paper");
+        const scissorBtn = document.querySelector(".scissors");
+        const playerOptions = [rockBtn, paperBtn, scissorBtn];
+        const computerOptions = ["rock", "paper", "scissors"];
+  
+      // Function to start playing game
+      playerOptions.forEach(option => {
+        option.addEventListener('click',function() {
+
+            const movesLeft = document.querySelector('.movesleft');
+            moves++;
+            movesLeft.innerText = `Moves Left: ${10-moves}`);
+            
+        }
+      })
+    })
 }
-
-function playGame() {
-    const rockBtn = document.querySelector(".rock");
-    const paperBtn = document.querySelector(".paper");
-    const scissorBtn = document.querySelector(".scissors")
-    const playerOptions = [rockBtn, paperBtn, scissorBtn];
-    let computerOptions = ["rock", "paper", "scissors"]
-        
-    });
-}
-
-function winner() {
-
-}
-
-function winner(params) {
     
-}
-
-function gameOver(params) {
-    
-}
